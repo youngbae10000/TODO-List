@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>MainServlet</servlet-name>
+  	<display-name>MainServlet</display-name>
+  	<description></description>
+  	<servlet-class>kr.or.connect.controller.MainServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TodoAddServlet</servlet-name>
+  	<display-name>TodoAddServlet</display-name>
+  	<description></description>
+  	<servlet-class>kr.or.connect.controller.TodoAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TodoTypeServlet</servlet-name>
+  	<display-name>TodoTypeServlet</display-name>
+  	<description></description>
+  	<servlet-class>kr.or.connect.controller.TodoTypeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MainServlet</servlet-name>
+  	<url-pattern>/MainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TodoAddServlet</servlet-name>
+  	<url-pattern>/TodoAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TodoTypeServlet</servlet-name>
+  	<url-pattern>/TodoTypeServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
